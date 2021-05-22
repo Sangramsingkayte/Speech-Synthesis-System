@@ -13,6 +13,15 @@ for low level architecture and has a Scheme (SIOD) based command
 interpreter for control.  Documentation is given in the FSF texinfo
 format which can generate, a printed manual, info files and HTML.
 
+[Text-to-speech synthesis](http://www.festvox.org/festival/)  
+
+
+Festival version, voices available
+
+[In Europe:] (http://www.cstr.ed.ac.uk/downloads/festival/2.4)
+[In North America:] (http://festvox.org/festival)
+[Building Voices in Festival:] (http://festvox.org/)
+
 #COPYING
 
 Festival is free.  Earlier versions were restricted to non-commercial
