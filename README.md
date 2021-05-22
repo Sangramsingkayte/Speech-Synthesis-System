@@ -54,3 +54,5 @@ New in Festival 2.1
    Improved support for hts, clustergen, clunits and multisyn voices
    lots of wee bugs fixed
 
+  ![image](https://user-images.githubusercontent.com/32505428/119219075-df33f980-bae3-11eb-9e89-1e6c7e615d33.png)
+
