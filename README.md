@@ -19,7 +19,9 @@ format which can generate, a printed manual, info files and HTML.
 Festival version, voices available
 
 [In Europe:] (http://www.cstr.ed.ac.uk/downloads/festival/2.4)
+
 [In North America:] (http://festvox.org/festival)
+
 [Building Voices in Festival:] (http://festvox.org/)
 
 #COPYING
