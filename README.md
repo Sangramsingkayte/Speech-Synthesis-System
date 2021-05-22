@@ -1,8 +1,63 @@
-# Text-To-Speech-Synthesis
 
+              The Festival Speech Synthesis System
+                   version 2.5.1 July 2020
 
-Language is the structural form of sharing thoughts and emotions in humans. The research motivates to stroke up for the Human-computer interaction. The overall intention of my PhD research program is focused to design Concatenation and Hidden Markov Model (HMM) based speech synthesis for the Marathi language. This will facilitate to correspond to the system and extend the technology for assertive devices based on the Marathi language. The advantage and attractive feature of the HMM system are that the voice alteration can be performed without large databases. To understand the detailed study of Synthesis techniques, I have also implemented the system for Unit Selection method. The Marathi Talking calculator is published at Play store using the technique of concatenation. This calculator performs the basic arithmetic operations and additionally speaks out the numeral in Marathi as the key is pressed. The result box synthesis the voice and speaks out the result in Marathi with correct place value of digits. The weakness of USS is it requires a large database and at joins, the quality is affected. To overcome these issues, the study reveals the built-up of a system with a phonetic based approach for Marathi Language using Concatenation and HMM.
+This directory contains the Festival Speech Synthesis System,
+developed at CSTR, University of Edinburgh. The project was originally
+started by Alan W Black and Paul Taylor but many others have been
+involved (see ACKNOWLEDGEMENTS file for full list).
 
-The Marathi recording corpus of 1000 sentences is constructed and labelling is completed manually using PRAT with the step-by-step procedure. With the help of festival and festvox packages, the Marathi TTS system is generated. The Clustergen module generates the spectrum, pitch and duration parameters of input speech. The Prosody is indulged with the context-dependent models calculated during the synthesis phase of the system. The algorithm re-synthesis speech with Mel-cepstral coefficients using MLSA (Mel Log Spectrum approximation) filter. The system is demonstrated for the speech parameters i.e. naturalness and understanding using subjective test i.e. Mean opinion score (MOS) and Objective test i.e. Mean Square Error (MSE) and Peak Signal to Noise Ratio ( PSNR) values. The MOS test result verified the system to the accuracy rate of 85%. While the Objective test evaluated for the performance of the system as 80%.
+Festival offers a general framework for building speech synthesis
+systems as well as including examples of various modules.  As a whole
+it offers full text to speech through a number APIs: from shell level,
+though a Scheme command interpreter, as a C++ library, and an Emacs
+interface.  Festival is multi-lingual (currently English (US and UK)
+and Spanish are distributed but a host of other voices have been
+developed by others) though English is the most advanced.
 
-  
+The system is written in C++ and uses the Edinburgh Speech Tools
+for low level architecture and has a Scheme (SIOD) based command
+interpreter for control.  Documentation is given in the FSF texinfo
+format which can generate, a printed manual, info files and HTML.
+
+COPYING
+
+Festival is free.  Earlier versions were restricted to non-commercial
+use but we have now relaxed those conditions.  The licence is an X11
+style licence thus it can be incorporated in commercial products
+and free source products without restriction.  See COPYING for the
+actual details.
+
+INSTALL
+
+Festival should run on any standard Unix platform.  It has already run
+on Solaris, SunOS, Linux and FreeBSD.  It requires a C++ compiler (GCC
+2.7.2, 2.8.1, 2.95.[123], 3.2.3 3.3.2 RedHat "gcc-2.96", gcc 3.3, gcc
+4.4.x and gcc-4.5.x, gcc-6.2.0 are our standard compilers) to
+install. A port to Windows XP/NT/95/98 and 2000 using either Cygnus
+GNUWIN32, this is still new but many people are successfully using it,
+it works fine with Windows 10 bash
+
+A detailed description of installation and requirements for the whole
+system is given in the file INSTALL read that for details.
+
+NEWS
+
+Keep abreast of Festival News by regularly checking the Festival homepage
+   http://www.cstr.ed.ac.uk/projects/festival/
+or the US site
+   http://festvox.org/festival/
+or on github
+   https://github.com/festvox/festival/
+
+New in Festival 2.5
+   Support for gcc6 (which is a somewhat different dialect of C++)
+
+New in Festival 2.2
+   updates to hts (hts_engine 1.07) and clustergen
+
+New in Festival 2.1
+   Support for various new GCC compilers
+   Improved support for hts, clustergen, clunits and multisyn voices
+   lots of wee bugs fixed
+
