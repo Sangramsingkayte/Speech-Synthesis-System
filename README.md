@@ -1,11 +1,4 @@
-
-              The Festival Speech Synthesis System
-                   version 2.5.1 July 2020
-
-This directory contains the Festival Speech Synthesis System,
-developed at CSTR, University of Edinburgh. The project was originally
-started by Alan W Black and Paul Taylor but many others have been
-involved (see ACKNOWLEDGEMENTS file for full list).
+##The Festival Speech Synthesis System
 
 Festival offers a general framework for building speech synthesis
 systems as well as including examples of various modules.  As a whole
