@@ -13,7 +13,7 @@ for low level architecture and has a Scheme (SIOD) based command
 interpreter for control.  Documentation is given in the FSF texinfo
 format which can generate, a printed manual, info files and HTML.
 
-COPYING
+#COPYING
 
 Festival is free.  Earlier versions were restricted to non-commercial
 use but we have now relaxed those conditions.  The licence is an X11
@@ -21,7 +21,7 @@ style licence thus it can be incorporated in commercial products
 and free source products without restriction.  See COPYING for the
 actual details.
 
-INSTALL
+#INSTALL
 
 Festival should run on any standard Unix platform.  It has already run
 on Solaris, SunOS, Linux and FreeBSD.  It requires a C++ compiler (GCC
@@ -34,7 +34,7 @@ it works fine with Windows 10 bash
 A detailed description of installation and requirements for the whole
 system is given in the file INSTALL read that for details.
 
-NEWS
+#NEWS
 
 Keep abreast of Festival News by regularly checking the Festival homepage
    http://www.cstr.ed.ac.uk/projects/festival/
