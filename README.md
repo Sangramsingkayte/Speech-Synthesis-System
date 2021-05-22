@@ -49,8 +49,10 @@ system is given in the file INSTALL read that for details.
 
 Keep abreast of Festival News by regularly checking the Festival homepage
    http://www.cstr.ed.ac.uk/projects/festival/
+   
 or the US site
    http://festvox.org/festival/
+   
 or on github
    https://github.com/festvox/festival/
 
